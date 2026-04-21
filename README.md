@@ -19,9 +19,6 @@ npm run dev
 ```bash
 npm run build
 ```
-
-No backend, no environment variables, no database setup required — everything runs locally out of the box.
-
 ---
 
 ## Architecture
