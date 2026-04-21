@@ -66,33 +66,6 @@ src/
 
 ---
 
-### Data Flow
-
-```
-User interaction (drag / click / connect)
-        ↓
-  React Flow events
-        ↓
-  Zustand store (workflowStore)
-        ↓
-  Components re-render with new state
-        ↓
-  On simulate → mockApi.ts → SimulationResult → SandboxPanel
-```
-
-The store is the single source of truth:
-
-* nodes
-* edges
-* selected node
-* validation errors
-* simulation results
-* UI state
-
-Components never talk to each other directly — everything flows through the store.
-
----
-
 ## Design Decisions
 
 ### Zustand over Context or Redux
@@ -182,6 +155,6 @@ Components never talk to each other directly — everything flows through the st
 | Vite                 | 5       | Build tool       |
 | React Flow           | 11      | Graph editor     |
 | Zustand              | 4       | State management |
-| DM Sans + Space Mono | —       | Typography       |
+| DM Sans + Space Mono | -       | Typography       |
 
 ---
