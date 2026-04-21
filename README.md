@@ -16,8 +16,6 @@ npm install
 npm run dev
 ````
 
-Open [http://localhost:5173](http://localhost:5173)
-
 ```bash
 npm run build
 ```
@@ -187,6 +185,3 @@ Components never talk to each other directly — everything flows through the st
 | DM Sans + Space Mono | —       | Typography       |
 
 ---
-
-```
-```
